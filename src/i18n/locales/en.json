@@ -1,0 +1,776 @@
+{
+  "about": {
+    "eyebrow": "About MapleRise",
+    "imageAlt": "Aerial photo of homes and roads in the Overseas East district of Capital Smart City",
+    "p1": "At MapleRise Estates we make property decisions clear and manageable. We know the societies, the developers and the paperwork, and we start from what your family actually needs.",
+    "p2": "Buying, selling or investing, you get plain answers: which blocks have possession, what the NOC status is, and what the monthly qist will really be.",
+    "stats": {
+      "clients": { "label": "buyers, sellers and investors guided", "value": "Hundreds" },
+      "founderYears": { "label": "years of founder experience in real estate" },
+      "projects": { "label": "projects marketed" },
+      "returnRate": { "label": "client return and referrals" }
+    },
+    "title": "Guiding you to the right home"
+  },
+  "actions": {
+    "backToTop": "Back to top",
+    "call": "Call",
+    "copyNumber": "Copy",
+    "enquire": "Enquire",
+    "freeConsultation": "Get free consultation",
+    "viewDetails": "View details",
+    "whatsapp": "WhatsApp",
+    "whatsappUs": "WhatsApp us"
+  },
+  "brand": {
+    "home": "MapleRise Estates – home",
+    "name": "MapleRise",
+    "suffix": "Estates",
+    "tagline": "Helping people make property decisions with confidence through clarity, local expertise and honest guidance."
+  },
+  "calc": {
+    "afford": {
+      "booking": "Booking",
+      "hint": "We compare it with each plan's monthly qist. Quarterly and half-yearly plans are converted to a monthly figure.",
+      "label": "My monthly budget (PKR)",
+      "monthly": "Monthly",
+      "none": "No published plan fits yet. Try a higher amount, or ask us about other blocks.",
+      "results_one": "{{count}} plan fits this budget",
+      "results_other": "{{count}} plans fit this budget",
+      "use": "Use this plan"
+    },
+    "amount": "Amount each (PKR)",
+    "breakdown": "Breakdown",
+    "copied": "Breakdown copied",
+    "copy": "Copy breakdown",
+    "count": "Instalments",
+    "differs": "Your schedule differs from the listed total by {{amount}}.",
+    "disclaimer": "Prices from developer, subject to change. Last verified: {{date}}.",
+    "eyebrow": "Payment plans",
+    "format": { "full": "Full numbers", "label": "Number format", "short": "Lakh / Crore" },
+    "intro": "Start from a developer's published plan, change any amount, and see exactly what you pay at booking, every month and on possession.",
+    "listed": "Developer's listed total",
+    "option": "{{label}} – {{size}}",
+    "plan": "Payment plan",
+    "planTitle": "{{project}} – {{label}} ({{size}})",
+    "reset": "Reset to developer plan",
+    "rows": {
+      "balloon": "Balloon payment",
+      "booking": "Booking / down payment",
+      "confirmation": "Confirmation",
+      "finalQuarter": "Final quarter",
+      "halfYearly": "Half-yearly",
+      "monthly": "Monthly",
+      "plotSelection": "Plot selection",
+      "possession": "Possession",
+      "quarterly": "Quarterly"
+    },
+    "tabs": { "afford": "Can I afford it?", "breakdown": "Plan breakdown" },
+    "times": "{{count}} × {{amount}}",
+    "title": "Installment calculator",
+    "total": "Total payable"
+  },
+  "cities": {
+    "Gujar Khan": "Gujar Khan",
+    "Islamabad": "Islamabad",
+    "Lahore": "Lahore",
+    "Murree": "Murree",
+    "Other": "Other",
+    "Rawalpindi": "Rawalpindi",
+    "Wah": "Wah"
+  },
+  "common": {
+    "close": "Close",
+    "comingSoon": "This page is part of the full website — coming soon",
+    "copied": "Copied: {{value}}",
+    "copyFailed": "Couldn't copy. Please copy it manually.",
+    "dismiss": "Dismiss",
+    "lastVerified": "Last verified: {{date}}",
+    "next": "Next",
+    "opensNewTab": "(opens in a new tab)",
+    "previous": "Previous",
+    "sample": "Sample",
+    "sampleHint": "Placeholder – to be confirmed by MapleRise",
+    "skip": "Skip to main content",
+    "underReview": "Details being verified"
+  },
+  "contact": {
+    "addressValue": "Islamabad",
+    "callbackSubmit": "Request a call back",
+    "callbackSuccess": "Preferred time: {{time}} (PKT). Want a faster reply?",
+    "confirmWhatsApp": "Confirm on WhatsApp",
+    "date": "Preferred date",
+    "directions": "Get directions",
+    "eyebrow": "Contact",
+    "hoursValue": "Mon–Sat, 10 AM – 6 PM PKT",
+    "intro": "Tell us when to call, or book a site visit. Times are Pakistan time (PKT).",
+    "mapTitle": "Map: Islamabad",
+    "preferredTime": "Preferred time (PKT)",
+    "project": "Project of interest",
+    "showMap": "Show map",
+    "tabs": { "callback": "Call back", "visit": "Site visit or virtual tour" },
+    "title": "Request a call back",
+    "visitImageAlt": "Faisal Mosque and the Margalla Hills, Islamabad",
+    "visitSubmit": "Book the visit",
+    "visitSuccess": "{{type}} at {{project}} on {{date}} ({{time}}). We'll confirm by phone.",
+    "visitSuccessTitle": "Visit requested",
+    "visitTitle": "Visit our office",
+    "visitType": "Type of visit",
+    "visitTypes": { "site": "Site visit", "virtual": "Virtual tour (video call)" }
+  },
+  "countries": { "AE": "UAE", "CA": "CA", "GB": "UK", "PK": "PK", "SA": "KSA", "US": "USA" },
+  "data": {
+    "districts": {
+      "aviation": { "body": "Expo centre, aviation academy, technology park and an outlet mall.", "name": "Aviation District" },
+      "crystalLake": { "body": "Offices, a boutique hotel, a dancing fountain, IT Tower and Media City.", "name": "Crystal Lake District" },
+      "financialSquare": { "body": "Pakistan Financial Center, CPEC Tower, a mega mall and a central park.", "name": "Financial Square" },
+      "gatePrecinct": { "body": "Serviced apartments, 200 commercial outlets, offices and a 5-star hotel.", "name": "Gate Precinct" },
+      "healthcare": { "body": "A 750-bed teaching hospital, a 500-bed hospital and laboratories.", "name": "Healthcare District" },
+      "overseasEast": { "body": "Villas, residential plots, Trivelles smart villas and a linear park.", "name": "Overseas East District" },
+      "sports": { "body": "ICC-standard cricket stadium, an Olympic stadium and an F2 race track.", "name": "Sports District" }
+    },
+    "guides": {
+      "marlaKanal": {
+        "body": [
+          "A Kanal is always 20 Marla. What changes is the size of a Marla: most new societies use 225 sq ft, so 5 Marla is about 1,125 sq ft, while older records and some areas use 272.25 sq ft.",
+          "Compare plots in square feet or square yards. Capital Smart City, for example, lists a 10 Marla plot as 250 sq yd (2,250 sq ft).",
+          "On this page, hover over a plot size to see its approximate square footage."
+        ],
+        "excerpt": "1 Kanal = 20 Marla. A Marla is usually 225 sq ft, but some areas use 272.25 sq ft, so check the society's own measure.",
+        "title": "Marla vs Kanal explained"
+      },
+      "noc": {
+        "body": [
+          "A legal housing society needs approval from a development authority: CDA in Islamabad, RDA in Rawalpindi, LDA in Lahore, or the district body elsewhere.",
+          "Ask which authority approved the layout plan and for the NOC reference, then find the society on that authority's list of approved schemes. A layout plan (LOP) approval is not the same as a full NOC.",
+          "If a society says its NOC is \"in process\", treat it as higher risk and keep payments to the booking amount until the approval is issued."
+        ],
+        "excerpt": "Find the approving authority (CDA, RDA, LDA or the district body) and check the society on its approved list before you pay anything.",
+        "title": "How to check a society's NOC"
+      },
+      "overseas": {
+        "body": [
+          "Most developers ask for a copy of your CNIC or NICOP, your next of kin's CNIC and passport-size photos with the application form.",
+          "The down payment is usually paid by bank transfer or pay order in the developer's name, never to an individual. Keep the receipt; the file is issued against it.",
+          "Get every instalment date in writing and set reminders in Pakistan time. Late instalments can lead to surcharges or cancellation."
+        ],
+        "excerpt": "Documents most developers ask for: CNIC or NICOP, passport-size photos and your next of kin's CNIC, plus how to pay from abroad.",
+        "title": "Overseas Pakistani buying checklist"
+      }
+    },
+    "pillars": {
+      "clearChoices": { "body": "We break complex property decisions into clear steps that fit your budget, your family and your plans.", "title": "Clear, confident choices" },
+      "expertGuidance": { "body": "An experienced agent helps you find the right home, read the market and make a well-informed choice that suits your long-term goals.", "title": "Expert guidance matters" },
+      "localExpertise": { "body": "Years of hands-on work in Pakistan's market. We give honest advice and point out the options genuinely worth your attention.", "title": "Local market expertise" }
+    },
+    "plans": {
+      "csc-harmony-3_5m": { "label": "Harmony Park Block – residential plot", "note": "R/P/MS fee Rs 7,000 at booking." },
+      "csc-harmony-homes": { "label": "Harmony Homes – villa home", "note": "MS fee Rs 20,000 at booking." },
+      "csc-one-capital-studio": { "label": "One Capital Residencies – studio (Jade Tower)", "note": "PKR 10,500 per sq ft. Floor premium and parking are extra." },
+      "csc-opb-10m": { "label": "Overseas Prime Block – residential plot", "note": "Corner, park-facing or main-road plots +10%; main boulevard +15%." },
+      "csc-opb-7m": { "label": "Overseas Prime Block – residential plot", "note": "Corner, park-facing or main-road plots +10%; main boulevard +15%." },
+      "csc-prime2-5m": { "label": "Prime II Block – residential plot", "review": "Listed total is 3,150,300 but the instalments add up to 3,150,000." },
+      "csc-smart-villa-5m-3b": { "label": "Smart Villa – 3 bed", "note": "Includes development charges; utility connection fees are extra." },
+      "csc-smart-villa-7m-4b": {
+        "label": "Smart Villa – 4 bed",
+        "note": "Includes development charges; utility connection fees are extra.",
+        "review": "Booking and confirmation are listed as 12,265,000 each; the 12,650,000 total implies 1,265,000 (10%). The Smart Villas page shows 1,265,000."
+      },
+      "csc-trivelles-5m-3b": { "label": "Trivelles smart villa – 3 bed", "review": "Booking + confirmation + 12 quarterly instalments = 9,259,080, which is 40,920 short of the 9,300,000 total." },
+      "csc-villas-660": { "label": "The Villas – villa apartment", "note": "Extra charge for 1st or ground floor. R/P/MS fee Rs 12,000." },
+      "csc-west-10m": {
+        "label": "Overseas West – residential plot",
+        "note": "Excludes development charges. R/P/MS fee Rs 15,000.",
+        "review": "Listed total is 6,229,000, but the instalments add up to about 6,290,000, and 629,000 isn't 10% of 6,229,000. Probably a digit swap."
+      },
+      "csc-west-5m": {
+        "label": "Overseas West – residential plot",
+        "note": "Excludes development charges. R/P/MS fee Rs 12,000.",
+        "review": "The table is titled \"3 Year Payment Plan\" with 12 quarterly instalments; the same page also says 4.5 years and 18 quarterly instalments."
+      },
+      "hamilton-10m": {
+        "label": "Hamilton Hills villa",
+        "note": "A 7.5% balloon payment replaces every sixth monthly instalment.",
+        "review": "The schedule on the source page runs from Jan 2024 to Mar 2028, so it is out of date."
+      },
+      "jabal-10m": { "label": "Pre-launch – resort unit" },
+      "lsc-overseas-5m": { "label": "Overseas Block – residential plot" },
+      "pine-orchard-1k": {
+        "label": "Pine Orchard – residential plot",
+        "note": "10% category charges apply. Possession in 3–6 months.",
+        "review": "The published row reads \"22,251,800 (83,340 x 27)\" for the monthly column (83,340 × 27 = 2,250,180) and \"1.500,000\" for possession."
+      },
+      "pvc-f-5m": { "label": "Block F – residential plot", "note": "25% down payment, balance in 4 quarterly instalments." }
+    },
+    "projects": {
+      "30-gateway": {
+        "area": "Bahria Town Phase 4, G.T. Road",
+        "highlights": [
+          "Shops and offices at Paradise Gateway Commercial, Bahria Town Phase 4",
+          "Building plans approved by CDA",
+          "Lower ground and ground floors for shops",
+          "First to third floors for offices",
+          "Suited to clinics, franchises and rental investors"
+        ],
+        "noc": "Building plans approved by CDA (per MapleRise).",
+        "priceNote": "Prices not published.",
+        "review": "Address conflict: \"Bahria Town Phase 4, G.T. Road, Rawalpindi\" vs CDA approval for \"Bahria Paradise Commercial Scheme-02, Zone-V, Islamabad\". The payment table has numbers but no units or headings."
+      },
+      "capital-hills": {
+        "area": "Pir Sohawa Road, next to Dino Valley",
+        "highlights": [
+          "Hilltop project on Pir Sohawa Road next to Dino Valley",
+          "About 10,000 Kanal with Margalla Hills views",
+          "Approved by TMA Haripur",
+          "5 Marla to 2 Kanal residential plots",
+          "Artificial lake, Brands Village and outdoor sports"
+        ],
+        "noc": "NOC approved by TMA Haripur (per MapleRise).",
+        "priceNote": "5 Marla (125 sq yd), 3-year plan.",
+        "review": "The payment table has 9 headings but 8 values per row, so instalments can't be mapped reliably. The page names both \"MapleRise Real Estate Builders\" and \"RBS Real Estate Builders\"."
+      },
+      "capital-smart-city": {
+        "area": "M-2 Motorway, near New Islamabad International Airport",
+        "highlights": [
+          "Pakistan's first smart city, on the M-2 near New Islamabad International Airport",
+          "Master plan by Surbana Jurong (Singapore)",
+          "Developed by Habib Rafiq (Pvt) Ltd and Future Development Holdings",
+          "Overseas, Executive and Harmony Park blocks, plus villas and apartments",
+          "Plots from 3.5 Marla to 2 Kanal"
+        ],
+        "noc": "NOC approved by RDA (per MapleRise); NOC for the enlarged layout is pending.",
+        "priceNote": "3.5 Marla plot, Harmony Park Block, 3.5-year plan."
+      },
+      "capital-smart-city-overseas-west": {
+        "area": "Capital Smart City, next to DHA Phase 9",
+        "highlights": [
+          "New block launched on 24 July 2024",
+          "Next to DHA Phase 9 and the M-2",
+          "5, 7, 10 Marla and 1 Kanal residential plots",
+          "Commercial plots of 4 and 8 Marla",
+          "10% down payment, then quarterly instalments"
+        ],
+        "noc": "Covered by the Capital Smart City NOC (per MapleRise).",
+        "priceNote": "5 Marla, excluding development charges."
+      },
+      "capital-smart-city-phase-3": {
+        "area": "Airport Avenue, Thalian Interchange",
+        "highlights": [
+          "Next to Islamabad International Airport and Thalian Interchange",
+          "Pre-launch prices with a 17% or 22% discount",
+          "18 quarterly instalments over 4.5 years",
+          "5 Marla, 10 Marla and 1 Kanal plots",
+          "Development started in August 2025"
+        ],
+        "noc": "No NOC yet, per MapleRise.",
+        "priceNote": "5 Marla, pre-launch 22% discounted price (15% down payment), excluding development charges."
+      },
+      "dha-gandhara": {
+        "area": "DHA Phase 9, M-2 Motorway",
+        "highlights": [
+          "DHA Phase 9 on the M-2, minutes from Islamabad International Airport",
+          "Master plan by Surbana Jurong over about 32,500 Kanal",
+          "Owned by Army Welfare Trust, built with Habib Rafiq",
+          "5 Marla, 10 Marla and 1 Kanal plots",
+          "Rawalpindi Ring Road about 5 minutes away"
+        ],
+        "noc": "NOC received, per MapleRise (RDA cited).",
+        "priceNote": "1 Kanal, full payment (pre-launch). Smaller sizes are not priced."
+      },
+      "gulberg-green": {
+        "area": "Islamabad Expressway",
+        "highlights": [
+          "On the Islamabad Expressway, about 12 km from Zero Point",
+          "Farmhouses of 4, 5 and 10 Kanal, plus residential blocks",
+          "CDA layout approval in 2011 and NOC in 2012",
+          "Developed by IBECHS",
+          "Gas and electricity MOUs signed with SNGPL and IESCO"
+        ],
+        "noc": "CDA NOC issued in 2012 (per MapleRise).",
+        "priceNote": "4 Kanal farmhouse plot, lower end of the PKR 2.40–4.50 crore range. Residential plots are not priced."
+      },
+      "hamilton-hills": {
+        "area": "Capital Smart City, M-2 entrance",
+        "highlights": [
+          "Malaysian-inspired villas inside Capital Smart City",
+          "Over 600 villas: 9.33 Marla, 15 Marla and 1 Kanal",
+          "Home automation, imported fittings and partial solar power",
+          "Hamilton Club with pool, gym and sauna",
+          "At the M-2 entrance to Capital Smart City"
+        ],
+        "noc": "Within Capital Smart City's approved framework (per MapleRise).",
+        "priceNote": "10 Marla villa, launch price (schedule dated Jan 2024).",
+        "review": "The instalment schedule runs from Jan 2024 to Mar 2028 (out of date). Sizes conflict: the schedule prices \"10 Marla\", the size section says \"9.33 Marla\". The booking section names \"Wall Real Estate team\"."
+      },
+      "harmony-homes": {
+        "area": "Capital Smart City",
+        "highlights": [
+          "Ready-design 3.5 Marla (20×40) villa homes",
+          "Gated community with round-the-clock security",
+          "42 monthly and 6 half-yearly instalments",
+          "Energy- and water-saving fittings",
+          "Payments to Future Developments Holdings"
+        ],
+        "noc": "No NOC detail on the MapleRise page; part of Capital Smart City.",
+        "priceNote": "3.5 Marla (20×40) villa home, 3.5-year plan."
+      },
+      "hawks-melbourne-city": {
+        "area": "Chakbeli Road, near Rawat",
+        "highlights": [
+          "On Chakbeli Road near Rawat, Rawalpindi",
+          "Layout plan approved by RDA (126 Kanal 8 Marla)",
+          "3 Marla to 2 Kanal residential plots",
+          "Commercial plots of 3 to 5 Marla",
+          "Earthwork under way"
+        ],
+        "noc": "Layout plan (LOP) approved by RDA; transfer and mortgage deed pending. No NOC stated.",
+        "priceNote": "5 Marla, 3-year plan (pre-launch).",
+        "review": "The residential payment table has no column headings, so instalment amounts can't be labelled."
+      },
+      "jabal-resorts-residencia": {
+        "area": "Khanpur Dam, Old Khanpur Road",
+        "highlights": [
+          "Resort community at Khanpur Dam, about 45 minutes from Islamabad",
+          "Plots with Registry and Intiqal",
+          "10 Marla resort units of about 900 sq ft covered area",
+          "Pre-launch plan with 39 monthly instalments",
+          "By Islamabad Properties"
+        ],
+        "noc": "Plots with Registry and Intiqal (per MapleRise). No NOC stated.",
+        "priceNote": "10 Marla resort unit, pre-launch plan."
+      },
+      "kohistan-enclave": {
+        "area": "Main G.T. Road, Wah Cantt",
+        "highlights": [
+          "On Main G.T. Road, Wah Cantt, next to Taxila",
+          "Running since 2012 with an established community",
+          "Plots from 3.2 Marla to 2 Kanal",
+          "48-instalment plans",
+          "NOC still in process"
+        ],
+        "noc": "NOC in process; not yet approved (per MapleRise).",
+        "priceNote": "5 Marla (1,250 sq ft), 48-instalment plan.",
+        "review": "Two tables price 5 Marla differently (PKR 5,000,000 vs 4,160,000). The FAQ says \"Stay updated with Rbsland.com\"."
+      },
+      "lahore-smart-city": {
+        "area": "Near G.T. Road and the M-11 Motorway",
+        "highlights": [
+          "LDA-approved smart city near G.T. Road and the M-11",
+          "About 20,000 Kanal; master plan by Surbana Jurong",
+          "Overseas and Executive blocks plus Harmony Park",
+          "3.5 Marla plots on a 3.5-year plan",
+          "NHA approval for Ring Road access (2023)"
+        ],
+        "noc": "LDA-approved (per MapleRise).",
+        "priceNote": "3.5 Marla plot, Harmony Park, 20% down payment + 14 quarterly instalments."
+      },
+      "mall-of-gujar-khan": {
+        "area": "G.T. Road, Gujar Khan",
+        "highlights": [
+          "Five-floor mall on G.T. Road, Gujar Khan",
+          "Shops priced per sq ft, with pre-launch and launch rates",
+          "Food court, brand outlets and parking",
+          "Built under AXIS Design & Build supervision",
+          "About 7 minutes from Gujar Khan railway station"
+        ],
+        "noc": "NOC from the Gujar Khan development authorities (per MapleRise).",
+        "priceNote": "Pre-launch from PKR 35,000 per sq ft (fourth floor); ground floor PKR 75,000 per sq ft.",
+        "review": "The page says the mall is \"a project undertaken by MapleRise Real Estate and Builders\". Probably a find-and-replace error; confirm before showing any ownership claim."
+      },
+      "margalla-enclave": {
+        "area": "Zone 4, near Park Road",
+        "highlights": [
+          "CDA and DHA joint venture in Zone 4",
+          "About 2 minutes from Park Road and 15 minutes from Zero Point",
+          "5 Marla, 10 Marla and 1 Kanal plots",
+          "1, 2 and 3-year plans after balloting",
+          "Commercial plots planned along Jinnah Avenue"
+        ],
+        "noc": "CDA–DHA joint venture; no NOC reference cited.",
+        "priceNote": "5 Marla (125 sq yd), lump sum within 30 days of balloting.",
+        "review": "NOC wording is inconsistent: one section says the CDA–DHA partnership \"eliminates NOC speculation\", the conclusion says \"With the NOC from CDA\". No NOC reference is cited."
+      },
+      "one-capital-residencies": {
+        "area": "Capital Smart City",
+        "highlights": [
+          "Apartments from studio to 4-bed duplex in Jade Tower",
+          "Starting rate PKR 10,500 per sq ft",
+          "90,000 sq ft of serviced offices on site",
+          "70% green areas and a central park",
+          "40 monthly and 8 half-yearly instalments"
+        ],
+        "noc": "NOC granted by Capital Smart City Authority (per MapleRise).",
+        "priceNote": "Studio, 614 sq ft at PKR 10,500 per sq ft (Jade Tower)."
+      },
+      "overseas-prime-block": {
+        "area": "Capital Smart City",
+        "highlights": [
+          "Elevated block next to the 18-hole golf course and Crystal Lake",
+          "Dedicated 180-ft Smart Broadway entrance from Chakri Road",
+          "Open to overseas and local buyers",
+          "7 Marla to 2 Kanal residential plots",
+          "Facilities planned within every 400 metres"
+        ],
+        "noc": "Part of Capital Smart City (RDA NOC, per MapleRise).",
+        "priceNote": "7 Marla plot, 3.5-year plan.",
+        "review": "This page lists 7 Marla at PKR 3,230,000; the Capital Smart City page lists the same block's 7 Marla at PKR 4,675,000."
+      },
+      "park-view-city": {
+        "area": "Zone IV, Simly Dam Road",
+        "highlights": [
+          "CDA-approved society in Zone IV by Vision Group",
+          "Blocks from 5 Marla to 2 Kanal, plus commercial plots",
+          "Short plans: 25% down payment, balance in 2–8 quarterly instalments",
+          "Commercial downtown around a 300-Kanal lake",
+          "About 3 minutes from Simly Dam Road"
+        ],
+        "noc": "CDA-approved (per MapleRise).",
+        "priceNote": "5 Marla, Park View Homes block, 25% booking + 8 quarterly instalments."
+      },
+      "pine-city": {
+        "area": "Makhniyal, Pir Sohawa Road (Haripur district)",
+        "highlights": [
+          "Hillside community on Pir Sohawa Road, near Monal",
+          "About 30 minutes from F-6 Islamabad",
+          "Approved by GDA Haripur and TMA Khanpur",
+          "Residential, farmhouse and golf-view plots",
+          "Pine Orchard 1 Kanal: possession in 3–6 months"
+        ],
+        "noc": "Outside CDA limits; approved by GDA Haripur and TMA Khanpur (per MapleRise).",
+        "priceNote": "1 Kanal, Pine Orchard payment plan.",
+        "review": "The owner is named \"Major (R) Siddique Anwar\" in one section and \"Major Anwar Saddique\" in the FAQ. The payment table has typos."
+      },
+      "smart-villas": {
+        "area": "Capital Smart City – Overseas and Executive blocks",
+        "highlights": [
+          "Smart-home villas: app-controlled locks, thermostats and CCTV",
+          "Contemporary, Georgian and Mediterranean designs",
+          "In Capital Smart City's Overseas and Executive blocks",
+          "Prices include development charges",
+          "3-year quarterly plan with 10% booking"
+        ],
+        "noc": "No NOC detail on the MapleRise page; part of Capital Smart City.",
+        "priceNote": "5 Marla, 3-bed villa, 3-year plan."
+      },
+      "the-villas": {
+        "area": "Capital Smart City, next to the Executive Block",
+        "highlights": [
+          "Shared villa apartments: each floor separately owned",
+          "660 and 856 sq ft units",
+          "4-year plan with 48 monthly instalments",
+          "Next to the Executive Block, 7 minutes from the airport",
+          "Lowest entry price in Capital Smart City"
+        ],
+        "noc": "No NOC detail on the MapleRise page; part of Capital Smart City.",
+        "priceNote": "660 sq ft villa apartment, 4-year plan.",
+        "review": "The 856 sq ft unit is PKR 3,610,000 on this page but PKR 3,750,000 on the Capital Smart City page."
+      },
+      "trivelles-smart-villas": {
+        "area": "Capital Smart City – Overseas Block D",
+        "highlights": [
+          "A limited number of smart villas in Block D, Overseas Block",
+          "Lake and golf course views",
+          "3 to 5-bedroom villas on 5 and 10 Marla",
+          "Smart locks, sensors and remote access as standard",
+          "By UK-based Trivelles International"
+        ],
+        "noc": "NOC from Capital Smart City Authority and HRL (per MapleRise).",
+        "priceNote": "5 Marla, 3-bed villa, 12 quarterly instalments."
+      }
+    },
+    "reviews": {
+      "firstTimeRwp": { "quote": "They told us which blocks had possession and which didn't. No pressure to decide on the spot.", "who": "First-time buyer, Rawalpindi" },
+      "investorLhr": { "quote": "A clear comparison of three societies within our budget, with the NOC status of each.", "who": "Investor, Lahore" },
+      "overseasUae": { "quote": "The team explained every instalment before I booked, and answered on WhatsApp the same evening.", "who": "Overseas buyer, UAE" }
+    },
+    "services": {
+      "buyingSelling": { "body": "We walk you through property searches, paperwork and the full transaction, so you feel confident at every step.", "title": "Buying and selling support" },
+      "development": { "body": "We advise on land and construction projects, helping you see the potential and make sound decisions.", "title": "Real estate development" },
+      "investment": { "body": "Market trends and the opportunities worth your money, for steady income and long-term value.", "title": "Investment guidance" },
+      "leasing": { "body": "We connect landlords with tenants, handle agreements, and keep things smooth from move-in to handover.", "title": "Leasing and rentals" },
+      "management": { "body": "Maintenance, rent collection and reporting: we handle the day-to-day so your property runs without hassle.", "title": "Property management" },
+      "salesMarketing": { "body": "We present properties well, reach the right buyers and help negotiate deals that work for everyone.", "title": "Sales and marketing" },
+      "valuation": { "body": "Accurate appraisals for sales, loans or insurance, so you know what a property is really worth.", "title": "Property valuation" }
+    },
+    "steps": {
+      "close": { "body": "We guide you through paperwork and handover, with local insight you can trust.", "title": "Close with confidence" },
+      "curatedOptions": { "body": "We shortlist projects that fit, with clear prices, plans and locations.", "title": "Explore curated options" },
+      "requirements": { "body": "We start by understanding your priorities and budget.", "title": "Share your requirements" },
+      "visit": { "body": "Whether in person or online, we make viewing easy.", "title": "Visit or tour virtually" }
+    },
+    "team": {
+      "ansa": { "role": "Sales Executive" },
+      "arzu": { "role": "Creative Lead" },
+      "asadKhan": {
+        "bio": "Five decades in real estate. Founded a turnkey interiors firm in Oman that handled high-profile projects across the Gulf and Brunei.",
+        "role": "Founder"
+      },
+      "azaz": { "role": "Sales Executive" },
+      "azfarZulfiqar": { "bio": "Keeps every process organised and every client experience smooth.", "role": "Director Operations" },
+      "fawad": { "role": "Business Development Manager" },
+      "hadi": { "role": "Video Editor" },
+      "ihtisham": { "role": "Web Developer" },
+      "muhammadYusuf": { "bio": "Focused on making every client experience effortless.", "role": "Design and Media Manager" },
+      "nisha": { "role": "Sales Executive" },
+      "rehman": { "role": "Designer" },
+      "sabahat": { "role": "Social Media Manager" },
+      "sadam": { "role": "SEO Specialist" },
+      "saif": { "role": "Accounts Officer" },
+      "shabih": { "role": "Sales Executive" },
+      "sheza": { "role": "Sales Executive" },
+      "sidra": { "role": "Content Creator" },
+      "tahir": { "role": "Business Development Manager" },
+      "talha": { "role": "Web Developer" },
+      "waqar": { "role": "Sales Executive" },
+      "waqas": { "role": "CFO" },
+      "zubairAkbar": { "bio": "Strong market knowledge and a client-first approach to every deal.", "role": "Sales Manager" }
+    }
+  },
+  "errors": {
+    "datePast": "Please choose today or a later date.",
+    "dateRequired": "Please choose a date.",
+    "nameLong": "That name is too long.",
+    "nameShort": "Please enter your name (at least 2 letters).",
+    "phoneInvalid": "Enter a valid number, e.g. 0300-1234567 or +92 300 1234567.",
+    "phoneRequired": "Please enter your phone number.",
+    "projectRequired": "Please choose a society.",
+    "timeRequired": "Please choose a time.",
+    "visitTypeRequired": "Please choose a site visit or a virtual tour."
+  },
+  "filters": {
+    "budget": { "1c": "Up to 1 Crore", "25l": "Up to 25 Lakh", "2c": "Up to 2 Crore", "50l": "Up to 50 Lakh", "5c": "Up to 5 Crore" },
+    "monthly": { "1l": "Up to 1 Lakh", "25k": "Up to 25,000", "2l": "Up to 2 Lakh", "2lplus": "2 Lakh and above", "50k": "Up to 50,000" },
+    "size": { "10to20": "10 Marla – 1 Kanal", "20plus": "1 Kanal and above", "5to10": "5 – 10 Marla", "upto5": "Up to 5 Marla" }
+  },
+  "footer": {
+    "copyright": "© {{year}} MapleRise Estates. All rights reserved.",
+    "demo": "Demo preview",
+    "disclaimer": "Prices and plans are copied from developers and can change. NOC notes summarise MapleRise's project pages; verify with the authority before you pay.",
+    "more": "More",
+    "pages": { "blog": "Blog", "careers": "Careers", "privacy": "Privacy policy", "terms": "Terms of use" },
+    "projects": "Projects by city",
+    "quickLinks": "Quick links"
+  },
+  "form": {
+    "choose": "Choose…",
+    "continueWhatsApp": "Continue on WhatsApp",
+    "country": "Country code",
+    "honeypot": "Leave this field empty",
+    "name": "Full name",
+    "notSure": "Not sure yet",
+    "phone": "Phone / WhatsApp number",
+    "phonePlaceholder": "0300-1234567",
+    "savedToast": "Saved. We'll be in touch soon.",
+    "sendAnother": "Send another enquiry",
+    "sending": "Sending…",
+    "successBody": "Our team will call you soon. Want a faster reply?",
+    "successTitle": "Thank you!"
+  },
+  "guides": {
+    "all": "All guides",
+    "comingSoonNote": "The full guide is part of the complete MapleRise website, coming soon. Until then, ask us on WhatsApp.",
+    "eyebrow": "Buyer help",
+    "preview": "Read preview",
+    "title": "Guides for buyers"
+  },
+  "hero": {
+    "body": "Plots, villas and apartments in Islamabad, Rawalpindi and Lahore, with clear prices, real installment plans and honest advice from a local team.",
+    "eyebrow": "Islamabad · Rawalpindi · Lahore",
+    "imageAlt": "Aerial view of homes and green landscape at Gulberg Greens, Islamabad",
+    "overseas": "Overseas Pakistani? Book remotely",
+    "title": "Homes that match your lifestyle"
+  },
+  "how": {
+    "eyebrow": "How we work",
+    "intro": "Our approach is built on clear guidance and putting you first at every step.",
+    "title": "Four steps, no pressure"
+  },
+  "lang": { "switchLabel": "Switch to Urdu", "switchTo": "اردو" },
+  "lead": {
+    "interest": "Interested society",
+    "intro": "Share a few details and our team will call you back.",
+    "submit": "Request a call",
+    "title": "Find the right property for you"
+  },
+  "money": { "crore": "PKR {{n}} Crore", "full": "PKR {{n}}", "lakh": "PKR {{n}} Lakh" },
+  "nav": {
+    "about": "About",
+    "browseAll": "Browse all projects",
+    "contact": "Contact",
+    "group": { "isb": "Islamabad / Rawalpindi", "others": "Lahore and others" },
+    "home": "Home",
+    "main": "Main",
+    "menu": "Menu",
+    "mobile": "Site sections",
+    "paymentPlans": "Payment plans",
+    "projects": "Projects",
+    "quickContact": "Quick contact",
+    "services": "Services",
+    "team": "Team"
+  },
+  "overseas": {
+    "docs": [
+      "CNIC or NICOP copy",
+      "Next of kin's CNIC copy",
+      "Three passport-size photos",
+      "Down-payment receipt (bank transfer or pay order)"
+    ],
+    "docsTitle": "Documents you'll need",
+    "intro": "You can book from the UAE, Saudi Arabia, the UK, the US or Canada without flying in. We handle the forms and keep you updated in your time zone.",
+    "note": "From the booking procedure on MapleRise's project pages. Exact documents vary by developer.",
+    "steps": [
+      "Tell us the project, plot size and budget on WhatsApp or a video call.",
+      "We send you the developer's application form to fill in.",
+      "Send copies of your CNIC or NICOP, your next of kin's CNIC and passport-size photos.",
+      "Pay the down payment by bank transfer or pay order in the developer's name.",
+      "We submit your file and keep you updated. Files are usually ready within 30 days and sent to your address."
+    ],
+    "stepsTitle": "Booking from abroad, step by step",
+    "title": "Overseas Pakistani? Book remotely",
+    "videoCall": "Book a video call / virtual tour"
+  },
+  "projects": {
+    "allCities": "All cities",
+    "allTypes": "All types",
+    "anything": "anything in my budget",
+    "askPlan": "Ask us for the payment plan",
+    "basis": { "halfYearly": "≈ per month, paid half-yearly", "quarterly": "≈ per month, paid quarterly" },
+    "bookingFrom": "Booking from",
+    "byLine": "{{developer}} · {{area}}",
+    "clear": "Clear filters",
+    "countIn_one": "{{count}} project in {{city}}",
+    "countIn_other": "{{count}} projects in {{city}}",
+    "count_one": "{{count}} project",
+    "count_other": "{{count}} projects",
+    "emptyBody": "Tell us what you need and we'll suggest options that fit.",
+    "emptyTitle": "No projects match these filters",
+    "eyebrow": "Projects we market",
+    "imageAlt": "{{name}}, {{area}}",
+    "intro": "Booking amount and monthly qist first, total price second, with the NOC note and developer for every project.",
+    "monthlyFrom": "Monthly from",
+    "moreSizes": "+{{count}} more",
+    "nocLabel": "NOC / approval",
+    "price": "Price",
+    "priceOnRequest": "Price on request",
+    "removeFilter": "(remove filter)",
+    "showAll": "Show all {{count}} projects",
+    "showFewer": "Show fewer",
+    "sizesLabel": "Available sizes",
+    "sqftHint": "≈ {{sqft}} sq ft",
+    "sqftHintDefault": "≈ {{sqft}} sq ft (at {{per}} sq ft per Marla)",
+    "startingFrom": "Starting from",
+    "subOf": "{{parent}} – {{name}}",
+    "title": "Featured projects",
+    "totalFrom": "Total from {{price}}"
+  },
+  "quickView": {
+    "bookVisit": "Book a visit",
+    "calculate": "Calculate installments",
+    "counter": "{{current}} / {{total}}",
+    "developer": "Developer",
+    "gallery": "Photos of {{name}}",
+    "highlights": "Highlights",
+    "noPlan": "No published installment plan yet. Ask us on WhatsApp for the latest.",
+    "photo": "{{name}}, photo {{current}} of {{total}}",
+    "sizes": "Sizes"
+  },
+  "quote": {
+    "cta": "Talk it through with us before you pay anything.",
+    "label": "How we work with you",
+    "text": "A good property decision isn't rushed. It's understood."
+  },
+  "reviews": { "eyebrow": "Client feedback", "listLabel": "Client reviews", "readAll": "Read all reviews", "title": "What clients say" },
+  "search": {
+    "any": "Any",
+    "budget": "Total budget",
+    "buy": "Buy",
+    "city": "City",
+    "invest": "Invest",
+    "monthly": "Monthly qist",
+    "size": "Size (Marla / Kanal)",
+    "society": "Society",
+    "submit": "Search",
+    "title": "Search projects",
+    "type": "Property type"
+  },
+  "services": {
+    "ask": "Ask on WhatsApp",
+    "eyebrow": "What we do",
+    "intro": "From buying and selling to renting, managing or investing, we guide you step by step with honest advice and practical solutions.",
+    "title": "Our services"
+  },
+  "shortlist": {
+    "add": "Save {{name}} to shortlist",
+    "addedToast": "{{name}} saved to your shortlist",
+    "clear": "Clear shortlist",
+    "count_one": "{{count}} project saved",
+    "count_other": "{{count}} projects saved",
+    "empty": "Tap the heart on any project to save it here. Your shortlist stays on this device.",
+    "remove": "Remove {{name}} from shortlist",
+    "removedToast": "{{name}} removed from your shortlist",
+    "save": "Save",
+    "saved": "Saved",
+    "send": "Send shortlist on WhatsApp",
+    "title": "Shortlist"
+  },
+  "social": { "label": "MapleRise Estates on {{network}}" },
+  "spotlight": {
+    "developedBy": "Developed and planned by",
+    "eyebrow": "Capital Smart City",
+    "imageAlt": "{{name}}, Capital Smart City (artist's impression)",
+    "intro": "Pakistan's first smart city sits on the M-2 next to New Islamabad International Airport. Its master plan groups homes, offices, hospitals and sport into themed districts.",
+    "listLabel": "Capital Smart City districts",
+    "title": "A city planned in districts",
+    "view": "View Capital Smart City"
+  },
+  "status": {
+    "officeTime": "Office time: {{time}} PKT",
+    "offline": "We'll reply at {{time}} PKT",
+    "offlineNextDay": "Closed now. We'll reply from {{time}} PKT",
+    "online": "We're online now"
+  },
+  "team": {
+    "empty": "Team details coming soon.",
+    "eyebrow": "Our people",
+    "intro": "A team built on insight and integrity: specialists in buying, selling, marketing and paperwork.",
+    "photoAlt": "{{name}}, {{role}}",
+    "title": "Our team",
+    "wider": "Meet the wider team ({{count}})"
+  },
+  "time": { "afternoon": "Afternoon", "evening": "Evening", "morning": "Morning" },
+  "types": {
+    "apartment": "Apartment",
+    "commercialPlot": "Commercial plot",
+    "farmhouse": "Farmhouse",
+    "residentialPlot": "Residential plot",
+    "shopOffice": "Shop / office",
+    "villaHouse": "Villa / house"
+  },
+  "units": {
+    "bed": "Bed",
+    "duplex": "Duplex",
+    "kanal": "Kanal",
+    "marla": "Marla",
+    "offices": "Offices",
+    "shops": "Shops",
+    "sqft": "sq ft",
+    "sqyd": "sq yd",
+    "studio": "Studio"
+  },
+  "wa": {
+    "general": "Hello MapleRise Estates, I'd like help finding the right property.",
+    "guide": "Hello MapleRise Estates, please send me your guide: \"{{title}}\".",
+    "lead": "Hello MapleRise Estates, my name is {{name}}. I just sent an enquiry about {{project}}.",
+    "leadGeneral": "Hello MapleRise Estates, my name is {{name}}. I just sent an enquiry on your website.",
+    "overseas": "Hello MapleRise Estates, I'm an overseas Pakistani and would like to book a property remotely.",
+    "planIntro": "Hello MapleRise Estates, please confirm this payment plan:",
+    "project": "Hello MapleRise Estates, I'm interested in {{name}}. Please share current prices, payment plans and availability.",
+    "search": "Hello MapleRise Estates, I'm looking for: {{summary}}. Can you suggest options?",
+    "service": "Hello MapleRise Estates, I'd like to ask about your {{service}} service.",
+    "shortlistIntro": "Hello MapleRise Estates, these are the projects on my shortlist:",
+    "shortlistLine": "• {{name}}",
+    "shortlistLineBooking": "• {{name}} (booking from {{amount}})",
+    "visit": "Hello MapleRise Estates, my name is {{name}}. Please confirm my {{type}} at {{project}} on {{date}} ({{time}})."
+  },
+  "why": { "eyebrow": "Why MapleRise", "title": "Why choose us?" }
+}

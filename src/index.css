@@ -1,0 +1,210 @@
+@import "tailwindcss";
+/* Self-hosted fonts (Fontsource, font-display: swap). Urdu fonts are imported on demand in src/i18n. */
+@import "@fontsource/dm-serif-display/400.css";
+@import "@fontsource-variable/manrope/wght.css";
+
+/*
+ * MapleRise palette: brand green #143D24 + one accent (gold #B99111) + a warm neutral scale.
+ * Contrast: gold-500 is decorative only. Gold text uses gold-700 on light (6:1) or gold-300 on green (6:1).
+ */
+@theme {
+  --color-brand-50: #eef4f0;
+  --color-brand-100: #d8e6dd;
+  --color-brand-200: #b3cdbc;
+  --color-brand-600: #24613b;
+  --color-brand-700: #1b4d2e;
+  --color-brand-800: #143d24;
+  --color-brand-900: #0f2e1b;
+  --color-brand-950: #0a1f12;
+
+  --color-gold-50: #faf5e6;
+  --color-gold-100: #f3e8c6;
+  --color-gold-300: #d9b23a;
+  --color-gold-500: #b99111;
+  --color-gold-700: #7c6000;
+
+  /* Neutrals: warm off-white to charcoal. */
+  --color-paper: #faf8f3;
+  --color-sand: #f2eee5;
+  --color-line: #ddd7ca;
+  --color-ink: #1e2320;
+  --color-ink-soft: #444b46;
+  --color-ink-mute: #5c635e;
+
+  --font-display: "DM Serif Display", "DM Serif Fallback", Georgia, serif;
+  --font-sans: "Manrope Variable", "Manrope Fallback", ui-sans-serif, system-ui, sans-serif;
+  /* Latin runs (project names, numbers) stay in Manrope; Urdu glyphs fall through to Nastaliq. */
+  --font-urdu: "Manrope Variable", "Noto Nastaliq Urdu", "Noto Naskh Arabic", serif;
+  --font-urdu-ui: "Manrope Variable", "Noto Naskh Arabic", "Noto Nastaliq Urdu", sans-serif;
+  --font-urdu-display: "DM Serif Display", "Noto Nastaliq Urdu", serif;
+
+  --animate-sheet-in: sheet-in 260ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --animate-modal-in: modal-in 200ms ease-out;
+  --animate-fade-in: fade-in 200ms ease-out;
+  @keyframes sheet-in {
+    from { transform: translateY(100%); }
+  }
+  @keyframes modal-in {
+    from { opacity: 0; transform: translateY(8px) scale(0.98); }
+  }
+  @keyframes fade-in {
+    from { opacity: 0; }
+  }
+}
+
+/* Metric-matched fallbacks (computed with fontkit against Arial/Georgia) so the swap doesn't shift layout. */
+@font-face {
+  font-family: "Manrope Fallback";
+  src: local("Arial");
+  size-adjust: 97.94%;
+  ascent-override: 108.84%;
+  descent-override: 30.63%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "DM Serif Fallback";
+  src: local("Georgia");
+  size-adjust: 99.67%;
+  ascent-override: 103.95%;
+  descent-override: 33.61%;
+  line-gap-override: 0%;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+    font-size: 1.0625rem; /* 17px body for older readers */
+    line-height: 1.65;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display font-normal text-brand-950;
+    text-wrap: balance;
+  }
+  /* Anchored sections clear the sticky header. */
+  [id] {
+    scroll-margin-top: 5rem;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-gold-500);
+    outline-offset: 2px;
+  }
+  .lucide {
+    stroke-width: 1.5;
+  }
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  ::selection {
+    background: var(--color-gold-100);
+    color: var(--color-ink);
+  }
+
+  /* ── Urdu ─────────────────────────────────────────────────────────────── */
+  :lang(ur) body {
+    font-family: var(--font-urdu);
+    font-size: 1.125rem;
+    line-height: 2.15; /* Nastaliq is tall; tighter values clip */
+  }
+  :lang(ur) :is(h1, h2, h3) {
+    font-family: var(--font-urdu-display);
+    line-height: 1.9;
+  }
+  /* Small UI text reads better in Naskh. */
+  :lang(ur) :is(button, input, select, textarea, label, legend, th, .text-xs, .text-sm, .eyebrow) {
+    font-family: var(--font-urdu-ui);
+    line-height: 1.85;
+  }
+  /* Letter-spacing and uppercase break Arabic-script joining. */
+  :lang(ur) * {
+    letter-spacing: normal !important;
+    text-transform: none !important;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  .eyebrow {
+    @apply text-xs font-bold tracking-[0.18em] text-gold-700 uppercase;
+  }
+  .h-section {
+    @apply text-4xl leading-[1.08] sm:text-5xl;
+  }
+  .field-label {
+    @apply mb-1.5 block text-sm font-semibold text-ink;
+  }
+  .field-input {
+    @apply min-h-12 w-full rounded-md border border-line bg-white px-3 text-base text-ink transition-colors focus:border-brand-700 focus:ring-2 focus:ring-brand-100 focus:outline-none aria-invalid:border-red-700;
+  }
+  .field-error {
+    @apply mt-1 text-sm font-medium text-red-800;
+  }
+  .hairline {
+    @apply border-line;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Clickable cards: hairline at rest, shadow only on hover; image zooms slightly. */
+  .card-hover {
+    @apply transition-shadow duration-200 hover:shadow-[0_8px_24px_-12px_rgb(10_31_18/0.35)];
+  }
+  .card-hover .zoom {
+    @apply transition-transform duration-500 ease-out;
+  }
+  .card-hover:hover .zoom {
+    transform: scale(1.04);
+  }
+}
+
+/* Dialogs: bottom sheet on phones, centred modal from sm up. */
+dialog.mr-dialog::backdrop {
+  background: rgb(10 31 18 / 0.55);
+  animation: var(--animate-fade-in);
+}
+dialog.mr-dialog[open] {
+  animation: var(--animate-sheet-in);
+}
+@media (min-width: 640px) {
+  dialog.mr-dialog[open] {
+    animation: var(--animate-modal-in);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after,
+  dialog.mr-dialog[open],
+  dialog.mr-dialog::backdrop {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+  .card-hover:hover .zoom {
+    transform: none;
+  }
+}
+
+
+:root {
+  --demo-banner-h: 0px;
+}
+
+:root[data-demo-mode="true"] {
+  --demo-banner-h: 32px;
+}
+
+@media (min-width: 768px) {
+  :root[data-demo-mode="true"] {
+    --demo-banner-h: 36px;
+  }
+}
