@@ -18,9 +18,9 @@ export function Team() {
             {t('team.empty')} <SampleChip />
           </p>
         ) : (
-          <ul className="grid grid-cols-2 gap-x-5 gap-y-10 lg:grid-cols-4">
+          <ul className="flex flex-wrap justify-center gap-x-5 gap-y-10">
             {leaders.map((m) => (
-              <li key={m.id}>
+              <li key={m.id} className="w-[calc(50%-0.625rem)] lg:w-[calc(25%-0.9375rem)]">
                 {m.image && (
                   <Img image={m.image} alt={t('team.photoAlt', { name: m.name, role: t(`data.team.${m.id}.role`) })} className="aspect-[4/5] w-full rounded-md" />
                 )}

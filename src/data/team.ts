@@ -8,7 +8,6 @@ export const leaders: TeamMember[] = [
   { id: 'asadKhan', name: 'Asad Khan', image: 'team/asad-khan', leader: true },
   { id: 'azfarZulfiqar', name: 'Azfar Zulfiqar', sourceName: 'Azfar zulfiqar', image: 'team/azfar-zulfiqar', leader: true },
   { id: 'zubairAkbar', name: 'Zubair Akbar', image: 'team/zubair-akbar', leader: true },
-  { id: 'muhammadYusuf', name: 'Muhammad Yusuf', image: 'team/muhammad-yusuf', leader: true },
 ];
 
 export const team: TeamMember[] = [
